@@ -1,0 +1,15 @@
+public class SumOfOddNumber {
+    public static void main(String[] args) {
+        int sum = 0;
+
+        System.out.println("Odd numbers between 1 and 100:");
+        for (int i = 1; i <= 100; i++) {
+            if (i %2!=0 && i % 7 == 0) {
+                System.out.println(i);
+                sum += i;
+            }
+        }
+
+        System.out.println("Sum of these numbers: " + sum);
+    }
+}
